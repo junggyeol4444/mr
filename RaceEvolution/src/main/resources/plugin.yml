@@ -1,0 +1,16 @@
+name: RaceEvolution
+version: 1.0.0
+main: com.mr.raceevolution.RaceEvolutionPlugin
+api-version: 1.20
+description: 종족 진화 & 초월 시스템 플러그인
+depend:
+  - DimensionCore
+  - BirthSystem
+  - StatSystem
+commands:
+  evolve:
+    description: 종족 진화 (되돌릴 수 없음)
+    usage: /evolve <경로>
+  transcend:
+    description: 종족 초월
+    usage: /transcend

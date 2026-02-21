@@ -1,0 +1,5 @@
+dependencies {
+    compileOnly project(':DimensionCore')
+    compileOnly project(':BirthSystem')
+    compileOnly project(':StatSystem')
+}

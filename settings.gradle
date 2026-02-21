@@ -1,0 +1,2 @@
+rootProject.name = 'mr'
+include 'DimensionCore', 'BirthSystem', 'StatSystem', 'JobClassSystem', 'QuestEngine', 'EconomyBridge', 'DeathRealm', 'WorldEvents', 'NPCEngine', 'TowerGate', 'GuildFaction', 'RaceEvolution', 'TutorialManager', 'LoreMyth'

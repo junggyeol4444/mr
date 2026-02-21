@@ -1,0 +1,14 @@
+name: StatSystem
+version: 1.0.0
+main: com.mr.statsystem.StatSystemPlugin
+api-version: 1.20
+description: 스탯 & 성장 플러그인
+depend:
+  - DimensionCore
+commands:
+  stats:
+    description: 플레이어 스탯 조회
+    usage: /stats [플레이어]
+  statpoint:
+    description: 스탯 포인트 분배
+    usage: /statpoint <스탯> <포인트>

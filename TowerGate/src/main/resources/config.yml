@@ -1,0 +1,43 @@
+tower:
+  max_floor: 100
+  sync_gate_trigger_floor: 50
+  special_floors:
+    time_limit:
+      - 10
+      - 25
+      - 50
+      - 75
+    forbidden:
+      - 33
+      - 66
+      - 99
+    nation_coop:
+      - 50
+      - 100
+
+floor_themes:
+  1-10: 생존
+  11-20: 퍼즐
+  21-30: 환경
+  31-40: 혼합
+  41-50: 국가 협력
+  51-60: 심층 생존
+  61-70: 고급 퍼즐
+  71-80: 극한 환경
+  81-90: 탑 보스
+  91-100: 심연의 문
+
+gate:
+  difficulties:
+    - EASY
+    - NORMAL
+    - HARD
+    - EXTREME
+
+messages:
+  tower_info: "§6=== 탑 정보 ===\n§e최고 층: §f%floor%층\n§e국가 랭킹: §f%nation_rank%위"
+  floor_info: "§6[탑 %floor%층] §e테마: %theme%"
+  floor_forbidden: "§c이 층은 금기층입니다! 특별 제한이 적용됩니다."
+  floor_time_limit: "§e이 층은 시간제한층입니다!"
+  rank_header: "§6=== 개인 랭킹 ==="
+  no_record: "§7아직 탑 기록이 없습니다."

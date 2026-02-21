@@ -1,0 +1,14 @@
+name: EconomyBridge
+version: 1.0.0
+main: com.mr.economy.EconomyBridgePlugin
+api-version: 1.20
+description: 경제 시스템 플러그인
+depend:
+  - DimensionCore
+commands:
+  money:
+    description: 잔액 조회
+    usage: /money [pay <플레이어> <금액> <통화>|balance]
+  exchange:
+    description: 차원 통화 환전 (명계에서만)
+    usage: /exchange <금액> <from통화> <to통화>

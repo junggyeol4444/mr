@@ -1,0 +1,7 @@
+name: LoreMyth
+version: 1.0.0
+main: com.mr.loremyth.LoreMythPlugin
+api-version: 1.20
+description: 차원 신화 & 메인스토리 플러그인
+depend:
+  - DimensionCore

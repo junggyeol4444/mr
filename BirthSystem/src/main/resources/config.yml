@@ -1,0 +1,69 @@
+birth:
+  dimensions:
+    fantasy: 30
+    martial: 30
+    earth: 30
+    underworld: 2
+    heaven: 2
+    immortal: 2
+    demon: 2
+    spirit: 2
+
+races:
+  underworld:
+    name: 악마
+    bonuses:
+      STR: 3
+      마기: 5
+    growth_multiplier: 1.5
+  heaven:
+    name: 천사
+    bonuses:
+      WIS: 3
+      천기: 5
+    growth_multiplier: 1.5
+  immortal:
+    name: 선인
+    bonuses:
+      STR: 2
+      DEX: 2
+      INT: 2
+      VIT: 2
+      WIS: 2
+    growth_multiplier: 2.0
+  demon:
+    name: 요괴
+    bonuses:
+      DEX: 3
+      요기: 5
+    growth_multiplier: 1.5
+  netherworld:
+    name: 영혼체
+    bonuses:
+      INT: 3
+      혼기: 5
+    growth_multiplier: 1.5
+    no_death_drop: true
+  fantasy:
+    name: 인간
+    bonuses: {}
+    growth_multiplier: 1.0
+  martial:
+    name: 인간
+    bonuses: {}
+    growth_multiplier: 1.0
+  earth:
+    name: 인간
+    bonuses: {}
+    growth_multiplier: 1.0
+  spirit:
+    name: 정령인
+    bonuses:
+      INT: 2
+      정령 마나: 5
+    growth_multiplier: 1.5
+
+messages:
+  birth_assigned: "§a당신은 §e%dimension% §a차원에서 태어났습니다! 종족: §b%race%"
+  stats_applied: "§b종족 스탯이 적용되었습니다."
+  already_born: "§c이미 출생이 완료되었습니다."

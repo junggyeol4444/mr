@@ -1,0 +1,16 @@
+name: DeathRealm
+version: 1.0.0
+main: com.mr.deathrealm.DeathRealmPlugin
+api-version: 1.20
+description: 명계 & 부활 시스템 플러그인
+depend:
+  - DimensionCore
+  - EconomyBridge
+  - BirthSystem
+commands:
+  resurrect:
+    description: 부활 신청 (소울 코인 사용)
+    usage: /resurrect [플레이어]
+  soulbank:
+    description: 소울 뱅크 (부활 비용 미리 납부)
+    usage: /soulbank <deposit|withdraw|balance> [금액]

@@ -1,0 +1,29 @@
+resurrection:
+  base_cost: 50000
+  quest_allowed: true
+  can_prepay: true
+
+netherworld:
+  pvp_enabled: false
+  areas:
+    - ROYAL_CITY
+    - CONTRACT_ROOM
+    - MARKET
+    - CHECKPOINT
+
+death:
+  drop_items: true
+  drop_exp: true
+  drop_level: false
+  spirit_body_drops_nothing: true
+
+messages:
+  death_sent_to_netherworld: "§c당신이 사망했습니다. 명계로 이동합니다..."
+  resurrect_cost: "§6부활 비용: §e%cost% 소울"
+  resurrect_success: "§a부활에 성공했습니다!"
+  resurrect_insufficient_soul: "§c소울이 부족합니다. 부활 비용: %cost% 소울"
+  resurrect_quest_option: "§b부활 퀘스트를 완료하거나 §e%cost% 소울§b을 지불해 부활할 수 있습니다."
+  soulbank_deposited: "§a소울 뱅크에 §e%amount% 소울§a을 예치했습니다."
+  soulbank_withdrawn: "§a소울 뱅크에서 §e%amount% 소울§a을 인출했습니다."
+  soulbank_balance: "§6소울 뱅크 잔액: §e%amount% 소울"
+  no_death_drop: "§7(영혼체 종족: 사망 시 드롭 없음)"

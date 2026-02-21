@@ -1,0 +1,11 @@
+name: TowerGate
+version: 1.0.0
+main: com.mr.towergate.TowerGatePlugin
+api-version: 1.20
+description: 탑 & 게이트 시스템 플러그인 (지구 차원)
+depend:
+  - DimensionCore
+commands:
+  tower:
+    description: 탑 정보 및 랭킹 조회
+    usage: /tower [info|rank|floor <층>]

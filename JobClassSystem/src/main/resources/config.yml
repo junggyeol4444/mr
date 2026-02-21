@@ -1,0 +1,68 @@
+fantasy_jobs:
+  - 검전사
+  - 성기사
+  - 마법사
+  - 룬공학자
+  - 정령주술사
+  - 음유시인
+  - 아케인아처
+  - 기갑창병
+  - 점성술사
+  - 혈귀술사
+  - 드루이드
+  - 네크로맨서
+  - 원소술사
+  - 연금술사
+  - 비전학자
+  - 암살자
+  - 수도사
+
+martial_arts:
+  types:
+    - 외공
+    - 내공
+    - 경신
+    - 심법
+    - 경공
+  rare_art:
+    name: 이름 미정 무공
+    count_in_world: 5
+    allows_all_martial: true
+  learning_penalty: 0.05
+
+hunter_ranks:
+  - E
+  - D
+  - C
+  - B
+  - A
+  - S
+  - SS
+  - SSS
+
+awakening_types:
+  - name: 섀도우
+    id: SHADOW
+  - name: 염동력
+    id: TELEKINESIS
+  - name: 강화
+    id: REINFORCEMENT
+  - name: 소환
+    id: SUMMON
+  - name: 중력
+    id: GRAVITY
+  - name: 전자기
+    id: ELECTROMAGNETIC
+  - name: 시간왜곡
+    id: TIME_WARP
+  - name: 생체개조
+    id: BIO_MODIFICATION
+  - name: 데이터해킹
+    id: DATA_HACKING
+
+messages:
+  job_info: "§6현재 직업: §e%job%"
+  job_selected: "§a직업을 선택했습니다: §e%job%"
+  job_already_selected: "§c이미 직업이 있습니다."
+  invalid_job: "§c유효하지 않은 직업입니다: %job%"
+  rank_info: "§6헌터 랭크: §e%rank% §7| 각성: §b%awakening%"

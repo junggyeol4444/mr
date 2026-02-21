@@ -1,0 +1,11 @@
+name: QuestEngine
+version: 1.0.0
+main: com.mr.questengine.QuestEnginePlugin
+api-version: 1.20
+description: 퀘스트 엔진 플러그인
+depend:
+  - DimensionCore
+commands:
+  quest:
+    description: 퀘스트 조회 및 관리
+    usage: /quest [list|info <퀘스트ID>|accept <퀘스트ID>|abandon <퀘스트ID>]

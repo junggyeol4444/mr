@@ -1,0 +1,14 @@
+name: DimensionCore
+version: 1.0.0
+main: com.mr.dimensioncore.DimensionCorePlugin
+api-version: 1.20
+description: 핵심 차원 관리 플러그인
+commands:
+  worldswitch:
+    description: 차원 이동 명령어 (튜토리얼 중 1회 한정)
+    usage: /worldswitch <차원>
+    permission: dimensioncore.worldswitch
+permissions:
+  dimensioncore.worldswitch:
+    description: 차원 변경 권한
+    default: true

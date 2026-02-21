@@ -1,0 +1,32 @@
+dimensions:
+  main:
+    - fantasy
+    - martial
+    - earth
+  sub:
+    - underworld
+    - heaven
+    - immortal
+    - demon
+    - spirit
+    - netherworld
+    - tower
+
+balance:
+  erosion_threshold: 30
+  overcharge_threshold: 71
+  default: 50
+  tick_interval: 200
+
+portals:
+  enabled: true
+  cooldown: 60
+
+messages:
+  worldswitch_used: "§c이미 차원 변경을 사용했습니다!"
+  worldswitch_success: "§a차원을 이동합니다: %dimension%"
+  worldswitch_tutorial_only: "§c튜토리얼 중에만 사용할 수 있습니다!"
+  balance_erosion: "§4[경고] 차원 균형이 침식 수준에 도달했습니다! 균형: %balance%"
+  balance_overcharge: "§e[경고] 차원 균형이 과충전 상태입니다! 균형: %balance%"
+  no_permission: "§c권한이 없습니다."
+  unknown_dimension: "§c알 수 없는 차원입니다: %name%"
