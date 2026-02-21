@@ -1,0 +1,21 @@
+guild:
+  max_members: 50
+  creation_cost: 10000
+  territory_war:
+    enabled: true
+    tax_rate_min: 0.01
+    tax_rate_max: 0.20
+  pvp_league:
+    enabled: true
+
+messages:
+  guild_created: "§a길드 '%name%'이(가) 창설되었습니다!"
+  guild_info: "§6=== 길드: %name% ===\n§e길드장: §f%leader%\n§e인원: §f%members%/%max%"
+  guild_invite_sent: "§a%player%에게 길드 초대장을 보냈습니다."
+  guild_invite_received: "§6%guild%에서 길드 초대를 보냈습니다. /guild accept 로 수락하세요."
+  guild_left: "§c길드에서 탈퇴했습니다."
+  guild_disbanded: "§c길드가 해산되었습니다."
+  guild_not_found: "§c길드를 찾을 수 없습니다."
+  not_in_guild: "§c길드에 소속되어 있지 않습니다."
+  already_in_guild: "§c이미 길드에 소속되어 있습니다."
+  insufficient_funds: "§c길드 창설 비용(%cost% 금화)이 부족합니다."

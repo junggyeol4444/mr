@@ -1,0 +1,12 @@
+name: GuildFaction
+version: 1.0.0
+main: com.mr.guildfaction.GuildFactionPlugin
+api-version: 1.20
+description: 길드 & 세력 시스템 플러그인
+depend:
+  - DimensionCore
+  - EconomyBridge
+commands:
+  guild:
+    description: 길드 관리
+    usage: /guild [create <이름>|info|invite <플레이어>|leave|disband]

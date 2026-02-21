@@ -1,0 +1,25 @@
+events:
+  demon_erosion_week:
+    duration_hours: 168
+    balance_trigger: 30
+    fantasy_debuff: true
+    spawn_rate_multiplier: 2.0
+  heaven_relic_descent:
+    duration_hours: 24
+    balance_trigger: 71
+    world_boss: true
+  demon_gate_open:
+    duration_hours: 72
+    drop_rate_multiplier: 1.5
+    yokai_capture: true
+  sync_gate:
+    tower_floor_requirement: 50
+    global: true
+
+messages:
+  event_start: "§6§l[월드 이벤트] §e%event%§6이(가) 시작되었습니다!"
+  event_end: "§7[월드 이벤트] §e%event%§7이(가) 종료되었습니다."
+  demon_erosion_warning: "§4[마계 침식] 판타지 대륙에 마물과 악마가 출현했습니다!"
+  heaven_descent_warning: "§e[천계 강림] 타락한 성물이 봉인 해제되었습니다! 월드보스 출현!"
+  demon_gate_warning: "§d[요계 개문] 드롭률이 상승하고 요괴 토벌/포획이 가능합니다!"
+  sync_gate_warning: "§b[싱크 게이트] 글로벌 이벤트가 발동되었습니다!"

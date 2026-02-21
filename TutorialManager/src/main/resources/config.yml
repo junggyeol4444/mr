@@ -1,0 +1,17 @@
+tutorial:
+  stages:
+    - DIMENSION_ASSIGNED
+    - COMBAT_BASICS
+    - QUEST_BASICS
+    - TRADE_BASICS
+    - DEATH_BASICS
+    - COMPLETED
+
+messages:
+  welcome: "§6§l과거책: 3천 차원 서버에 오신 것을 환영합니다!"
+  stage_combat: "§e[튜토리얼] 전투 시스템을 체험해보세요. 몬스터를 1마리 처치하세요."
+  stage_quest: "§e[튜토리얼] 퀘스트 시스템을 체험해보세요. /quest list 를 입력하세요."
+  stage_trade: "§e[튜토리얼] 거래 시스템을 체험해보세요. /money balance 를 입력하세요."
+  stage_death: "§e[튜토리얼] 부활 시스템: 사망 시 명계로 이동합니다."
+  completed: "§a§l튜토리얼 완료! 본 서버에 입장합니다."
+  worldswitch_hint: "§7힌트: /worldswitch <차원> 으로 시작 차원을 변경할 수 있습니다. (1회 한정)"

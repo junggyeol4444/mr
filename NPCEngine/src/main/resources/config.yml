@@ -1,0 +1,20 @@
+npc:
+  affinity:
+    max: 100
+    min: -100
+    default: 0
+    ally_threshold: 50
+    hostile_threshold: -50
+  death:
+    moves_to_netherworld: true
+
+ai:
+  tick_interval: 100
+  interaction_radius: 10.0
+
+messages:
+  npc_greeting_friendly: "§a%npc%: 반갑습니다, %player%님!"
+  npc_greeting_neutral: "§7%npc%: ..."
+  npc_greeting_hostile: "§c%npc%: 가까이 오지 마시오!"
+  npc_ally_quest_unlock: "§6%npc%이(가) 특별 임무를 맡겼습니다!"
+  npc_died: "§7%npc%이(가) 명계로 이동했습니다."

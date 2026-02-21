@@ -1,0 +1,33 @@
+artifacts:
+  FLAME_OF_LUMEN:
+    name: 루멘의 불씨
+    dimension: fantasy
+    description: 창조의 불, 판타지 차원의 성물
+  CORE_OF_TAICHI:
+    name: 태극의 핵
+    dimension: martial
+    description: 천지의 근원, 무협 차원의 성물
+  PROTOSS_CUBE:
+    name: 프로토스 큐브
+    dimension: earth
+    description: 잃어버린 기술, 지구 차원의 성물
+
+abyss:
+  layers:
+    UPPER: 파멸의 왕들 (지성체)
+    MIDDLE: 타락한 영웅들
+    LOWER: 심연수, 암흑 결정체
+  goal: 모든 차원 융합해 원시 차원 복원
+
+endgame:
+  trigger: all_artifacts_collected
+  factions:
+    GUARDIAN: 수호자
+    CORRUPT: 타락자
+    ESCAPEE: 탈출자 (종족 초월자만)
+
+messages:
+  artifact_found: "§6§l[신화] §e%artifact%§6을(를) 발견했습니다!"
+  abyss_opened: "§4§l[심연 개문] 세 유물이 모였습니다. 심연이 열립니다!"
+  faction_choose: "§6진영을 선택하세요: §a수호자 §c타락자 §b탈출자"
+  endgame_start: "§4§l[엔드게임] 차원 융합 전장이 개시됩니다!"

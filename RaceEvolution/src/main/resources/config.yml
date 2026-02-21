@@ -1,0 +1,31 @@
+evolution:
+  paths:
+    SPIRIT_HUMAN:
+      name: 정령인
+      required_stat_INT: 100
+      required_level: 50
+    HALF_DEMON:
+      name: 반마족
+      required_stat_STR: 100
+      required_level: 50
+    MECHANICAL_HUMAN:
+      name: 기계인
+      required_stat_DEX: 100
+      required_level: 50
+    CORRUPTION:
+      name: 타락자
+      required_alignment: negative
+
+transcendence:
+  stat_threshold: 9999
+  cost_multiplier: 2.0
+  max_level: 3
+
+messages:
+  evolve_prompt: "§6종족 진화는 되돌릴 수 없습니다. 경로: %path%\n§c확인하려면 /evolve confirm %path%"
+  evolve_success: "§a§l종족이 진화했습니다! → §e%race%"
+  evolve_already: "§c이미 진화한 종족입니다."
+  evolve_requirements_not_met: "§c진화 조건을 충족하지 못했습니다."
+  transcend_success: "§6§l종족 초월! 신적 존재로 승격되었습니다! (초월 레벨: %level%)"
+  transcend_already_max: "§c이미 최대 초월 단계입니다."
+  transcend_requirements: "§c초월 조건을 충족하지 못했습니다."

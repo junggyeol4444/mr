@@ -1,0 +1,42 @@
+currencies:
+  fantasy:
+    - COPPER_COIN
+    - SILVER_COIN
+    - GOLD_COIN
+    - PLATINUM_COIN
+  martial:
+    - COPPER_LIANG
+    - SILVER_LIANG
+    - GOLD_LIANG
+  earth:
+    - COIN
+  netherworld:
+    - SOUL
+
+exchange_rates:
+  COPPER_COIN_to_SILVER_COIN: 100
+  SILVER_COIN_to_GOLD_COIN: 100
+  GOLD_COIN_to_PLATINUM_COIN: 100
+  COPPER_LIANG_to_SILVER_LIANG: 100
+  SILVER_LIANG_to_GOLD_LIANG: 100
+  COIN_to_SOUL: 1000
+  GOLD_COIN_to_COIN: 50
+  GOLD_LIANG_to_COIN: 50
+
+soul_bank:
+  max_deposit: 10000000
+  interest_rate: 0.01
+
+starting_balance:
+  fantasy: 100
+  martial: 100
+  earth: 100
+  netherworld: 10
+
+messages:
+  balance: "§6잔액: §e%amount% %currency%"
+  pay_success: "§a%target%에게 §e%amount% %currency%§a를 송금했습니다."
+  pay_insufficient: "§c잔액이 부족합니다."
+  exchange_only_netherworld: "§c환전은 명계에서만 가능합니다!"
+  exchange_success: "§a환전 완료: §e%from_amount% %from%§a → §e%to_amount% %to%"
+  invalid_currency: "§c유효하지 않은 통화입니다: %currency%"
